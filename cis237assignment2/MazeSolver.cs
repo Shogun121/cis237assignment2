@@ -18,8 +18,14 @@ namespace cis237assignment2
         /// Class level memeber variable for the mazesolver class
         /// </summary>
         char[,] maze;
+
+        //starting coordinates
         int xStart;
         int yStart;
+
+        //current coordinates
+        int xPosition;
+        int yPosition;
 
         /// <summary>
         /// Default Constuctor to setup a new maze solver.
@@ -53,7 +59,28 @@ namespace cis237assignment2
         /// </summary>
         private void mazeTraversal()
         {
+
             //Implement maze traversal recursive call
+        }
+        private int GoUp(int xStart, int yStart,char[,] maze,int xPosition,int yPosition)
+        {//attempt to move up
+            if(maze[xStart,yStart]=",")
+            {
+
+            }
+            //return maze[2,3];    
+        }
+        private void GoRight(int xStart, int yStart)
+        {//attempt to move right
+
+        }
+        private void GoDown(int xStart, int yStart)
+        {//attempt to move down
+
+        }
+        private void GoLeft(int xStart, int yStart)
+        {//attempt to move left
+
         }
     }
 }
