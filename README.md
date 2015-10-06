@@ -1,6 +1,8 @@
-# Assignment 1 - Review of C# Basic Concepts and Introduction to Git
+﻿# Assignment 2 – Using recursion to solve a maze, transpose, and solve 
 
-## Author
+				again.
+
+## Author Robert Cooley
 
 ## Description
 
@@ -25,7 +27,10 @@ It might be useful while developing this program to use a smaller sized maze, an
 Don't forget that you must have a base case for your recursive method or you will continue to get a stack overflow. 
 
 ## Outside Resources Used
+http://www.c-sharpcorner.com/uploadfile/4a950c/solving-mazes-using-recursion/ //for inspiration.
+
+https://www.cs.bu.edu/teaching/alg/maze/ //for inspiration
 
 ## Known Problems, Issues, And/Or Errors in the Program
-
+Incomplete Doesn’t work
 
